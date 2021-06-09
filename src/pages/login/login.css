@@ -1,0 +1,67 @@
+.login-content{
+    width: 100%;
+    margin: auto;
+    background-color: #151323;
+    height: 100vh;
+}
+.login-content form{
+    background-color: white;
+    border-radius: 20px;
+    width: 500px;
+    height: 540px;
+    padding: 20px;
+}
+
+.H1-login{
+    text-align: center;
+    color:firebrick;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botao button{
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    box-shadow: 0 3px 5px 2px rgb(114, 59, 59);
+    background-image: linear-gradient(to right, black, firebrick);
+   
+    
+}
+.botao:hover{
+    
+    color: white;
+    
+}
+.opcoes-login{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.opcoes-login a{
+    text-decoration: none;
+    color: firebrick;
+    transition: .3s ease-in;
+    
+}
+.opcoes-login a:hover{
+    color: black;
+}

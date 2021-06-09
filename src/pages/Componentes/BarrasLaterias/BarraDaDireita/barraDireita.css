@@ -1,0 +1,22 @@
+.BarraDireita{
+    padding: 10px;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    width: 382px;
+    height: 330px;
+}
+.cardDireita {
+    width: 350px;
+   
+}
+.BarraDireita h1{
+    color: firebrick;
+}
+.fundo-card{
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom:10px;
+    border:2px solid firebrick;
+    
+}
+

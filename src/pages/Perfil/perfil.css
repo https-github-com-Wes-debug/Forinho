@@ -1,0 +1,8 @@
+.avatar-perfil{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.avatar-perfil:hover{
+background-color: red;
+}

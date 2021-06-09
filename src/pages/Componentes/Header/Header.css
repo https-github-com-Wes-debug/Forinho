@@ -1,0 +1,75 @@
+
+@media only screen and (min-width: 992px) {
+.divBar{
+    border-bottom: 2px solid lightgray;
+    height: 56px;
+    
+}
+.Nome-Forinho-header{
+    color: firebrick;
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+    margin-top: 50px;
+}
+
+.busca{
+    background-color:white;
+    width: 220px;
+    height: 38px;
+    margin-right: 50px;
+}
+
+.btBuscar{
+    border: none;
+    height: 38px;
+    color: white;
+    background-color: firebrick;
+
+}
+
+}
+.Link-Novo-Topico{
+    background-color: firebrick;
+    border-radius: 8px;
+    padding: 5px;
+
+}
+
+
+.opcoes-menu {
+    margin-right: 10px;
+}
+.opcoes-menu a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    margin-right: 3px;
+}
+
+@media only screen and (max-width: 992px) {
+
+.Nome-Forinho-header{
+    color: firebrick;
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+    height: 5px;
+    
+}
+
+.btBuscar{
+    border: none;
+    margin-top: 23px;
+    height: 40px;
+    color: white;
+    background-color: firebrick;
+
+}
+.Menu{
+    height: 20px;
+    margin-bottom: 20px;
+}
+.busca{
+    height: 4em;
+    margin-top: 20px;
+}
+}

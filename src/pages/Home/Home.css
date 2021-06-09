@@ -1,0 +1,50 @@
+.page{
+    display: flex ;
+    margin: 0, auto;
+    padding: 10px;
+    padding-top: 20px;
+    padding-inline-end: 10px;
+    height: 100%;
+    
+  
+}
+.footer{
+
+    width: 100%;
+}
+.cardNerdices{ 
+    padding: 10px;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    width: 382px;
+    height: 540px;
+  
+}
+.cardNerdices h1{
+    color: firebrick;
+}
+.barraFixa{
+position: sticky;
+top: 55px;
+}
+.btn-trocar button{
+    text-align: right;
+}
+.hidden-button{
+    display: none;
+}
+
+@media (max-width: 750px) {
+    .Resposive{
+        display:none
+    }
+  
+ }
+ @media (max-width: 630px) {
+   
+    .hidden-button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+ }

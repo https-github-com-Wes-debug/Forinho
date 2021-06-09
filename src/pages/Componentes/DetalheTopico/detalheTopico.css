@@ -1,0 +1,28 @@
+.img-banner{
+    width: 60%;
+    min-height: 350px;
+    max-height: 350px;
+}
+.texto-topico {
+    font-size: 23px;
+    text-align: justify;
+}
+
+.div-texto-topico{
+    border-radius: 8px;
+}
+.btn-responder button{
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    box-shadow: 0 3px 5px 2px rgb(114, 59, 59);
+    background-image: linear-gradient(to right, black, firebrick);
+}
+.vizualizacao-detalhe span{
+    color:black;
+}
+.vizualizacao-detalhe svg{
+    color: firebrick;
+}

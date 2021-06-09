@@ -1,0 +1,23 @@
+
+.form-novo-topico{
+   padding: 20px 30px;
+   border-radius: 8px;
+}
+.textarea-texto textarea{
+    resize: none;
+    height: 150px;
+    
+}
+
+.btn-cadastro button{
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    box-shadow: 0 3px 5px 2px rgb(114, 59, 59);
+    background-image: linear-gradient(to right, black, firebrick);
+}
+.page-novo-topico{
+    height: 100vh;
+}
